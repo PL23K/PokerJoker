@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B215DF67-8276-4D53-B497-A9F416A535B8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PokerJoker</RootNamespace>
+    <AssemblyName>PokerJoker</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Window1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cards\HEI1CARD.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="cards\HEI2CARD.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="cards\HEI3CARD.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="cards\HEI4CARD.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cards\FANG10CARD.png" />
+    <Resource Include="cards\FANG1CARD.png" />
+    <Resource Include="cards\FANG2CARD.png" />
+    <Resource Include="cards\FANG3CARD.png" />
+    <Resource Include="cards\FANG4CARD.png" />
+    <Resource Include="cards\FANG5CARD.png" />
+    <Resource Include="cards\FANG6CARD.png" />
+    <Resource Include="cards\FANG7CARD.png" />
+    <Resource Include="cards\FANG8CARD.png" />
+    <Resource Include="cards\FANG9CARD.png" />
+    <Resource Include="cards\FANGJCARD.png" />
+    <Resource Include="cards\FANGKCARD.png" />
+    <Resource Include="cards\FANGQCARD.png" />
+    <Resource Include="cards\HEI10CARD.png" />
+    <Resource Include="cards\HEI5CARD.png" />
+    <Resource Include="cards\HEI6CARD.png" />
+    <Resource Include="cards\HEI7CARD.png" />
+    <Resource Include="cards\HEI8CARD.png" />
+    <Resource Include="cards\HEI9CARD.png" />
+    <Resource Include="cards\HEIJCARD.png" />
+    <Resource Include="cards\HEIKCARD.png" />
+    <Resource Include="cards\HEIQCARD.png" />
+    <Resource Include="cards\HONG10CARD.png" />
+    <Resource Include="cards\HONG1CARD.png" />
+    <Resource Include="cards\HONG2CARD.png" />
+    <Resource Include="cards\HONG3CARD.png" />
+    <Resource Include="cards\HONG4CARD.png" />
+    <Resource Include="cards\HONG5CARD.png" />
+    <Resource Include="cards\HONG6CARD.png" />
+    <Resource Include="cards\HONG7CARD.png" />
+    <Resource Include="cards\HONG8CARD.png" />
+    <Resource Include="cards\HONG9CARD.png" />
+    <Resource Include="cards\HONGJCARD.png" />
+    <Resource Include="cards\HONGKCARD.png" />
+    <Resource Include="cards\HONGQCARD.png" />
+    <Resource Include="cards\MEI10CARD.png" />
+    <Resource Include="cards\MEI1CARD.png" />
+    <Resource Include="cards\MEI2CARD.png" />
+    <Resource Include="cards\MEI3CARD.png" />
+    <Resource Include="cards\MEI4CARD.png" />
+    <Resource Include="cards\MEI5CARD.png" />
+    <Resource Include="cards\MEI6CARD.png" />
+    <Resource Include="cards\MEI7CARD.png" />
+    <Resource Include="cards\MEI8CARD.png" />
+    <Resource Include="cards\MEI9CARD.png" />
+    <Resource Include="cards\MEIJCARD.png" />
+    <Resource Include="cards\MEIKCARD.png" />
+    <Resource Include="cards\MEIQCARD.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

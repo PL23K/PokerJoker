@@ -1,0 +1,13 @@
+D:\Dev\VS2008\PokerJoker\PokerJoker\bin\Debug\PokerJoker.exe
+D:\Dev\VS2008\PokerJoker\PokerJoker\bin\Debug\PokerJoker.pdb
+D:\Dev\VS2008\PokerJoker\PokerJoker\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\VS2008\PokerJoker\PokerJoker\obj\Debug\Window1.baml
+D:\Dev\VS2008\PokerJoker\PokerJoker\obj\Debug\Window1.g.cs
+D:\Dev\VS2008\PokerJoker\PokerJoker\obj\Debug\App.g.cs
+D:\Dev\VS2008\PokerJoker\PokerJoker\obj\Debug\PokerJoker_MarkupCompile.cache
+D:\Dev\VS2008\PokerJoker\PokerJoker\obj\Debug\PokerJoker.g.resources
+D:\Dev\VS2008\PokerJoker\PokerJoker\obj\Debug\PokerJoker.Properties.Resources.resources
+D:\Dev\VS2008\PokerJoker\PokerJoker\obj\Debug\PokerJoker.csproj.GenerateResource.Cache
+D:\Dev\VS2008\PokerJoker\PokerJoker\obj\Debug\PokerJoker.exe
+D:\Dev\VS2008\PokerJoker\PokerJoker\obj\Debug\PokerJoker.pdb
+D:\Dev\VS2008\PokerJoker\PokerJoker\bin\Debug\Microsoft.WindowsAPICodePack.dll
